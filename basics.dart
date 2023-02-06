@@ -24,7 +24,7 @@ void main() {
   //   print(num);
   //   num++; // num = num + 1;
   // }
-  List<String> students = ['Jishnu', 'Ajay', 'Sageer'];
+  // List<String> students = ['Jishnu', 'Ajay', 'Sageer'];
 
   // int count = 0;
   // while (count < students.length) {
@@ -34,12 +34,12 @@ void main() {
 //   for (int i = 0; i < students.length; i++) {
 //     print(students[i]);
 //   }
-  int userInput = 5;
-  for (int a = 0; a < userInput; a++) {
-    for (int i = 0; i < students.length; i++) {
-      print(students[i]);
-    }
-    print('********');
-  }
-  print('end!');
+  // int userInput = 5;
+  // for (int a = 0; a < userInput; a++) {
+  //   for (int i = 0; i < students.length; i++) {
+  //     print(students[i]);
+  //   }
+  //   print('********');
+  // }
+  // print('end!');
 }
