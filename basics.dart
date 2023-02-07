@@ -1,4 +1,6 @@
 void main() {
+  // Data types
+
   // int studentCount = 30;
   // print(studentCount.isEven);
   // print(studentCount.isOdd);
@@ -18,6 +20,8 @@ void main() {
   // Map<String, dynamic> student = {'name': 'LaL', 'mark': 45, 'phone': 95445};
   // student.addAll({'email':'123@gmail.com'});
   // print(student);
+
+// Loopss
 
   // int num = 1;
   // while (num <= 10) {
@@ -42,4 +46,8 @@ void main() {
   //   print('********');
   // }
   // print('end!');
+
+
+//Functionss
+
 }
