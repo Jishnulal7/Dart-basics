@@ -1,10 +1,14 @@
-void main() {
-  int i, j, limit = 6;
+import 'dart:io';
 
-  for (i = 1; i <= limit; i++) {
+void main() {
+  dynamic i, j, limit = 4;
+  stdout.write('Enter a limit');
+  limit = int.parse(stdin.readLineSync()!);
+  for (i = 0; i <= limit; i++) {
     for (j = 0; j < i; j++) {
-      print('*');
+      // stdout.write('*');
+      stdout.write('$j');
     }
-  }print("/n");
-  
+    print("");
+  }
 }
