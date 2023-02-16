@@ -50,50 +50,35 @@
 // }
 // print('end!');
 
-//Functionss
+void main() {
+  // var a = stdin.readLineSync();
+  // print('Hello $a');
 
-// printName();
+  // print('enter 2 numbers');
+  // var input1 = stdin.readLineSync();
+  // var input2 = stdin.readLineSync();
 
-// String returnVAlue = printName();
-// print(returnVAlue);
+  // var num1 = int.parse(input1!);
+  // var num2 = int.parse(input2!);
 
-// }
+  // print('sum = ${num1 + num2}');
 
-// Void printName() {
-//   String name = 'jishnulal';
-//   print(name);
-// }
+  // var numberList = [1, 2, 3, 4];
+  // var addtoList = [6, 7, 8, 9];
 
-// String printName() {
-//   String name = 'jishnulal';
-//   return name;
-// }
+  // print(numberList.length);
+  // if (addtoList.contains(7)) {
+  //   print('List has 7');
+  // } else {
+  //   print('not contains');
+  // }
+  // print(numberList.join('-'));
 
-// void main() {
-//   String name = 'Jishnulal';
-//   printNames(name);
-// }
+  // List<int> numberList = [1, 23, 4, 5, 1];
 
-// String printNames(String name) {
-//   print(name);
-//   return name;
-// }
-// void main() {
-//   String name = 'LaL';
-//   printNames(name);
-// }
+  // Set<int> numberSet = {1, 23, 4, 5, 1};
 
-// void printNames(String name) {
-//   print(name);
-// }
+  // print(numberList);
+  // print(numberSet);
+}
 
-// void main() {
-//   String name = 'Jishnulal';
-//   String newName = printNames(name);
-//   print(newName);
-// }
-
-// String printNames(String name) {
-//   String newName = name + '......';
-//   return newName;
-// }
