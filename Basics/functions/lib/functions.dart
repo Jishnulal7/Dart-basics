@@ -67,8 +67,7 @@ void main() {
     print('Function sum ${f + s}');
   });
 
-  sumFuture(12, 15);
-  print('after someFuture');
+
 }
 
 void sum() {
@@ -83,10 +82,6 @@ int sumReturn(int a, int b) {
   return a + b;
 }
 
-Future<void> sumFuture(int a, int b) async {
-  await Future.delayed(Duration(seconds: 3)); 
-  print('sum Future ${a + b}');
-}
 
 
 
